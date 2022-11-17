@@ -1,0 +1,13 @@
+.body {
+    margin: 0 auto;
+    width: 60%;
+
+    background: #ddd;
+    padding: 1rem;
+}
+
+.text {
+    composes: greenish from "shared/mcss/color.mcss";
+    font-size: 1.2rem;
+    color: black;
+}

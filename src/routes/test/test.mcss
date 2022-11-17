@@ -1,0 +1,5 @@
+.test {
+    composes: greenish from "shared/mcss/color.mcss";
+    
+    color: purple;
+}
